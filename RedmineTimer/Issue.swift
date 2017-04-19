@@ -7,61 +7,40 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class Issue {
+class Issue: Mappable {
     var id: Int = -1
-    var project: Project = Project()
-    var tracker: Tracker = Tracker()
-    var status: Status = Status()
-    var priority: Priority = Priority()
-    var author: Author = Author()
-    var assignedTo: AssignedTo = AssignedTo()
-    var category: Category = Category()
-    var fixedVersion: FixedVersion = FixedVersion()
+    var project: String = "-"
+    var tracker: String = "-"
+    var status: String = "-"
+    var priority: String = "-"
+    var author: String = "-"
+    var assignedTo: String = "-"
+    var category: String = "-"
     var subject: String = "Unknown subject"
     var description: String = "Unknown description"
     var startDate: String = "Unknown start date"
     var doneRatio: Int = 0
+
+    required init?(map: Map) {
+        
+    }
     
-    @objc 
-}
-
-class Project {
-    var id: Int = -1
-    var name: String = "Unknown project"
-}
-
-class Tracker {
-    var id: Int = -1
-    var name: String = "Unknown tracker"
-}
-
-class Status {
-    var id: Int = -1
-    var name: String = "Unknown status"
-}
-
-class Priority {
-    var id: Int = -1
-    var name: String = "Unknown priority"
-}
-
-class Author {
-    var id: Int = -1
-    var name: String = "Unknown author"
-}
-
-class AssignedTo {
-    var id: Int = -1
-    var name: String = "Unknown assigned"
-}
-
-class Category {
-    var id: Int = -1
-    var name: String = "Unknown category"
-}
-
-class FixedVersion {
-    var id: Int = -1
-    var name: String = "Unknown fixed version"
+    //MARK: Mappable
+    func mapping(map: Map) {
+        id          <- map["id"]
+        project     <- map["project"]["name"]
+        tracker     <- map["tracker"]["name"]
+        status      <- map["status"]["name"]
+        priority    <- map["priority"]["name"]
+        author      <- map["author"]["name"]
+        assignedTo  <- map["assigned_to"]["name"]
+        category    <- map["category"]["name"]
+        subject     <- map["subject"]
+        description <- map["description"]
+        startDate   <- map["start_date"]
+        doneRatio   <- map["done_ratio"]
+    }
+    
 }

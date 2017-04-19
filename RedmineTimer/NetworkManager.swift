@@ -18,9 +18,8 @@ class NetworkManager {
         let base64Credentials = credentialData.base64EncodedData()
         
         currentAuthHeader = ["Authorization": "Basic \(base64Credentials)"]
-        Alamofire.request(rootUrl + "/issues.json",
-                          headers: currentAuthHeader)
-            .responseJSON { response in
+        /*Alamofire.request(rootUrl + "/issues.json", headers: currentAuthHeader)
+            .responseJSON { (response: DataResponse<Issue>) in
                 guard response.result.isSuccess else {
                     print("Error while fetching tags: \(String(describing: response.result.error))")
                     completion([String]())
@@ -34,7 +33,7 @@ class NetworkManager {
                 
                 print(jsonResponse)
                 completion([String]())
-        }
+        }*/
     }
     
 }
