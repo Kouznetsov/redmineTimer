@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A2FBA868BD67832165123B /* Pods_RedmineTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8511A9A753765733803A3B /* Pods_RedmineTimerUITests.framework */; };
+		34719583AF35198C40360940 /* Pods_RedmineTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2677980F18018AC513734759 /* Pods_RedmineTimer.framework */; };
+		8A0BEF1B1EA7A4290063C616 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BEF1A1EA7A4290063C616 /* NetworkManager.swift */; };
+		8A0BEF1D1EA7A76F0063C616 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0BEF1C1EA7A76F0063C616 /* Issue.swift */; };
 		8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */; };
 		8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2C1EA79097000ECC28 /* ViewController.swift */; };
 		8AAFCF301EA79097000ECC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2E1EA79097000ECC28 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		8AAFCF351EA79097000ECC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF331EA79097000ECC28 /* LaunchScreen.storyboard */; };
 		8AAFCF401EA79097000ECC28 /* RedmineTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF3F1EA79097000ECC28 /* RedmineTimerTests.swift */; };
 		8AAFCF4B1EA79097000ECC28 /* RedmineTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF4A1EA79097000ECC28 /* RedmineTimerUITests.swift */; };
+		EC387A1B8E38D12772E879FC /* Pods_RedmineTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B4BE9CD58F4DC335978FE0 /* Pods_RedmineTimerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0259EA4CEF37222E73AAA75E /* Pods-RedmineTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimer/Pods-RedmineTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		2677980F18018AC513734759 /* Pods_RedmineTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedmineTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B4BE9CD58F4DC335978FE0 /* Pods_RedmineTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedmineTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0BEF1A1EA7A4290063C616 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8A0BEF1C1EA7A76F0063C616 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		8AAFCF271EA79097000ECC28 /* RedmineTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AAFCF2C1EA79097000ECC28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,12 @@
 		8AAFCF461EA79097000ECC28 /* RedmineTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedmineTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFCF4A1EA79097000ECC28 /* RedmineTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedmineTimerUITests.swift; sourceTree = "<group>"; };
 		8AAFCF4C1EA79097000ECC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A026D68ED17232B50594BD3A /* Pods-RedmineTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimerTests/Pods-RedmineTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A64A87E1F511AA3061861E26 /* Pods-RedmineTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimer/Pods-RedmineTimer.release.xcconfig"; sourceTree = "<group>"; };
+		B6DA8AF32419E963E11552A1 /* Pods-RedmineTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimerUITests/Pods-RedmineTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB43D82C74E259401AFE73D3 /* Pods-RedmineTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimerUITests/Pods-RedmineTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A3EACF3A727C11CE83BBAB /* Pods-RedmineTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedmineTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedmineTimerTests/Pods-RedmineTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD8511A9A753765733803A3B /* Pods_RedmineTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedmineTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34719583AF35198C40360940 /* Pods_RedmineTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC387A1B8E38D12772E879FC /* Pods_RedmineTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A2FBA868BD67832165123B /* Pods_RedmineTimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ABAA7558F224D246987D825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0259EA4CEF37222E73AAA75E /* Pods-RedmineTimer.debug.xcconfig */,
+				A64A87E1F511AA3061861E26 /* Pods-RedmineTimer.release.xcconfig */,
+				C0A3EACF3A727C11CE83BBAB /* Pods-RedmineTimerTests.debug.xcconfig */,
+				A026D68ED17232B50594BD3A /* Pods-RedmineTimerTests.release.xcconfig */,
+				BB43D82C74E259401AFE73D3 /* Pods-RedmineTimerUITests.debug.xcconfig */,
+				B6DA8AF32419E963E11552A1 /* Pods-RedmineTimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AAFCF1E1EA79097000ECC28 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				8AAFCF3E1EA79097000ECC28 /* RedmineTimerTests */,
 				8AAFCF491EA79097000ECC28 /* RedmineTimerUITests */,
 				8AAFCF281EA79097000ECC28 /* Products */,
+				0ABAA7558F224D246987D825 /* Pods */,
+				A575C1806A7F5E0D3EF7CFD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +137,8 @@
 				8AAFCF311EA79097000ECC28 /* Assets.xcassets */,
 				8AAFCF331EA79097000ECC28 /* LaunchScreen.storyboard */,
 				8AAFCF361EA79097000ECC28 /* Info.plist */,
+				8A0BEF1A1EA7A4290063C616 /* NetworkManager.swift */,
+				8A0BEF1C1EA7A76F0063C616 /* Issue.swift */,
 			);
 			path = RedmineTimer;
 			sourceTree = "<group>";
@@ -125,6 +161,16 @@
 			path = RedmineTimerUITests;
 			sourceTree = "<group>";
 		};
+		A575C1806A7F5E0D3EF7CFD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2677980F18018AC513734759 /* Pods_RedmineTimer.framework */,
+				64B4BE9CD58F4DC335978FE0 /* Pods_RedmineTimerTests.framework */,
+				CD8511A9A753765733803A3B /* Pods_RedmineTimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AAFCF4F1EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimer" */;
 			buildPhases = (
+				4C67431DAB45F156AEBD3C91 /* [CP] Check Pods Manifest.lock */,
 				8AAFCF231EA79097000ECC28 /* Sources */,
 				8AAFCF241EA79097000ECC28 /* Frameworks */,
 				8AAFCF251EA79097000ECC28 /* Resources */,
+				36E1C9C880011B1BD259804B /* [CP] Embed Pods Frameworks */,
+				8789D98C448E64608654D18E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AAFCF521EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerTests" */;
 			buildPhases = (
+				1B8154F08BFDB168F618EA01 /* [CP] Check Pods Manifest.lock */,
 				8AAFCF371EA79097000ECC28 /* Sources */,
 				8AAFCF381EA79097000ECC28 /* Frameworks */,
 				8AAFCF391EA79097000ECC28 /* Resources */,
+				3E270BFEC2BBBD1DFD1B0FF5 /* [CP] Embed Pods Frameworks */,
+				986A68901A1223A60B86AEB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AAFCF551EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerUITests" */;
 			buildPhases = (
+				3683060B0034A4F62047F1E3 /* [CP] Check Pods Manifest.lock */,
 				8AAFCF421EA79097000ECC28 /* Sources */,
 				8AAFCF431EA79097000ECC28 /* Frameworks */,
 				8AAFCF441EA79097000ECC28 /* Resources */,
+				3B4049825CA7737EAF85A3C4 /* [CP] Embed Pods Frameworks */,
+				AB43A8223CCDB0D1D7BECA9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +309,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B8154F08BFDB168F618EA01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3683060B0034A4F62047F1E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36E1C9C880011B1BD259804B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimer/Pods-RedmineTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4049825CA7737EAF85A3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimerUITests/Pods-RedmineTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E270BFEC2BBBD1DFD1B0FF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimerTests/Pods-RedmineTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C67431DAB45F156AEBD3C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8789D98C448E64608654D18E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimer/Pods-RedmineTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986A68901A1223A60B86AEB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimerTests/Pods-RedmineTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB43A8223CCDB0D1D7BECA9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedmineTimerUITests/Pods-RedmineTimerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AAFCF231EA79097000ECC28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0BEF1B1EA7A4290063C616 /* NetworkManager.swift in Sources */,
 				8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */,
 				8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */,
+				8A0BEF1D1EA7A76F0063C616 /* Issue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +607,7 @@
 		};
 		8AAFCF501EA79097000ECC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0259EA4CEF37222E73AAA75E /* Pods-RedmineTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedmineTimer/Info.plist;
@@ -424,6 +620,7 @@
 		};
 		8AAFCF511EA79097000ECC28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64A87E1F511AA3061861E26 /* Pods-RedmineTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedmineTimer/Info.plist;
@@ -436,6 +633,7 @@
 		};
 		8AAFCF531EA79097000ECC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A3EACF3A727C11CE83BBAB /* Pods-RedmineTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +648,7 @@
 		};
 		8AAFCF541EA79097000ECC28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A026D68ED17232B50594BD3A /* Pods-RedmineTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +663,7 @@
 		};
 		8AAFCF561EA79097000ECC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB43D82C74E259401AFE73D3 /* Pods-RedmineTimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
@@ -477,6 +677,7 @@
 		};
 		8AAFCF571EA79097000ECC28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DA8AF32419E963E11552A1 /* Pods-RedmineTimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
@@ -507,6 +708,7 @@
 				8AAFCF511EA79097000ECC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AAFCF521EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +717,7 @@
 				8AAFCF541EA79097000ECC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AAFCF551EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +726,7 @@
 				8AAFCF571EA79097000ECC28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

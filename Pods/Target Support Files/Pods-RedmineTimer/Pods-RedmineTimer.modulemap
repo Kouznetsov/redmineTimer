@@ -1,0 +1,6 @@
+framework module Pods_RedmineTimer {
+  umbrella header "Pods-RedmineTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

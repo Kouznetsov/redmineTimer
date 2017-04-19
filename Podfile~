@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'RedmineTime' do
+  pod 'Alamofire', '~> 4.4'
+  pod 'Eureka', '~> 2.0.1'
+  target 'RedmineTimeTests' do
+    inherit! :search_paths
+  end
+  target 'RedmineTimeUITests' do
+    inherit! :search_paths
+  end
+end

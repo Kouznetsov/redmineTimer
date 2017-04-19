@@ -10,16 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: Properties
+    @IBOutlet weak var userEdit: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var progressIndicator: UIActivityIndicatorView!
+    var isLoading: Bool = false {
+        didSet {
+            isLoading(isLoading)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        progressIndicator.isHidden = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //MARK: Actions
+    @IBAction func onLoginClick(_ sender: UIButton) {
+        isLoading = true
     }
-
-
+    
+    //MARK: Private Functions
+    private func isLoading(_ isLoading: Bool) {
+        userEdit.isEnabled = !isLoading
+        password.isEnabled = !isLoading
+        loginBtn.isEnabled = !isLoading
+        progressIndicator.isHidden = !isLoading
+        if isLoading {
+            progressIndicator.startAnimating()
+        }
+    }
 }
 
