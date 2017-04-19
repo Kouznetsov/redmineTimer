@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */; };
+		8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2C1EA79097000ECC28 /* ViewController.swift */; };
+		8AAFCF301EA79097000ECC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2E1EA79097000ECC28 /* Main.storyboard */; };
+		8AAFCF321EA79097000ECC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF311EA79097000ECC28 /* Assets.xcassets */; };
+		8AAFCF351EA79097000ECC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF331EA79097000ECC28 /* LaunchScreen.storyboard */; };
+		8AAFCF401EA79097000ECC28 /* RedmineTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF3F1EA79097000ECC28 /* RedmineTimerTests.swift */; };
+		8AAFCF4B1EA79097000ECC28 /* RedmineTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF4A1EA79097000ECC28 /* RedmineTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AAFCF3C1EA79097000ECC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAFCF1F1EA79097000ECC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAFCF261EA79097000ECC28;
+			remoteInfo = RedmineTimer;
+		};
+		8AAFCF471EA79097000ECC28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AAFCF1F1EA79097000ECC28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAFCF261EA79097000ECC28;
+			remoteInfo = RedmineTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AAFCF271EA79097000ECC28 /* RedmineTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AAFCF2C1EA79097000ECC28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AAFCF2F1EA79097000ECC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AAFCF311EA79097000ECC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AAFCF341EA79097000ECC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AAFCF361EA79097000ECC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAFCF3B1EA79097000ECC28 /* RedmineTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedmineTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAFCF3F1EA79097000ECC28 /* RedmineTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedmineTimerTests.swift; sourceTree = "<group>"; };
+		8AAFCF411EA79097000ECC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAFCF461EA79097000ECC28 /* RedmineTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedmineTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAFCF4A1EA79097000ECC28 /* RedmineTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedmineTimerUITests.swift; sourceTree = "<group>"; };
+		8AAFCF4C1EA79097000ECC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AAFCF241EA79097000ECC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF381EA79097000ECC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF431EA79097000ECC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAFCF1E1EA79097000ECC28 = {
+			isa = PBXGroup;
+			children = (
+				8AAFCF291EA79097000ECC28 /* RedmineTimer */,
+				8AAFCF3E1EA79097000ECC28 /* RedmineTimerTests */,
+				8AAFCF491EA79097000ECC28 /* RedmineTimerUITests */,
+				8AAFCF281EA79097000ECC28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AAFCF281EA79097000ECC28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFCF271EA79097000ECC28 /* RedmineTimer.app */,
+				8AAFCF3B1EA79097000ECC28 /* RedmineTimerTests.xctest */,
+				8AAFCF461EA79097000ECC28 /* RedmineTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AAFCF291EA79097000ECC28 /* RedmineTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */,
+				8AAFCF2C1EA79097000ECC28 /* ViewController.swift */,
+				8AAFCF2E1EA79097000ECC28 /* Main.storyboard */,
+				8AAFCF311EA79097000ECC28 /* Assets.xcassets */,
+				8AAFCF331EA79097000ECC28 /* LaunchScreen.storyboard */,
+				8AAFCF361EA79097000ECC28 /* Info.plist */,
+			);
+			path = RedmineTimer;
+			sourceTree = "<group>";
+		};
+		8AAFCF3E1EA79097000ECC28 /* RedmineTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFCF3F1EA79097000ECC28 /* RedmineTimerTests.swift */,
+				8AAFCF411EA79097000ECC28 /* Info.plist */,
+			);
+			path = RedmineTimerTests;
+			sourceTree = "<group>";
+		};
+		8AAFCF491EA79097000ECC28 /* RedmineTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFCF4A1EA79097000ECC28 /* RedmineTimerUITests.swift */,
+				8AAFCF4C1EA79097000ECC28 /* Info.plist */,
+			);
+			path = RedmineTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AAFCF261EA79097000ECC28 /* RedmineTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAFCF4F1EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimer" */;
+			buildPhases = (
+				8AAFCF231EA79097000ECC28 /* Sources */,
+				8AAFCF241EA79097000ECC28 /* Frameworks */,
+				8AAFCF251EA79097000ECC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedmineTimer;
+			productName = RedmineTimer;
+			productReference = 8AAFCF271EA79097000ECC28 /* RedmineTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AAFCF3A1EA79097000ECC28 /* RedmineTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAFCF521EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerTests" */;
+			buildPhases = (
+				8AAFCF371EA79097000ECC28 /* Sources */,
+				8AAFCF381EA79097000ECC28 /* Frameworks */,
+				8AAFCF391EA79097000ECC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAFCF3D1EA79097000ECC28 /* PBXTargetDependency */,
+			);
+			name = RedmineTimerTests;
+			productName = RedmineTimerTests;
+			productReference = 8AAFCF3B1EA79097000ECC28 /* RedmineTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AAFCF451EA79097000ECC28 /* RedmineTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AAFCF551EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerUITests" */;
+			buildPhases = (
+				8AAFCF421EA79097000ECC28 /* Sources */,
+				8AAFCF431EA79097000ECC28 /* Frameworks */,
+				8AAFCF441EA79097000ECC28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AAFCF481EA79097000ECC28 /* PBXTargetDependency */,
+			);
+			name = RedmineTimerUITests;
+			productName = RedmineTimerUITests;
+			productReference = 8AAFCF461EA79097000ECC28 /* RedmineTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AAFCF1F1EA79097000ECC28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = brocelia;
+				TargetAttributes = {
+					8AAFCF261EA79097000ECC28 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					8AAFCF3A1EA79097000ECC28 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAFCF261EA79097000ECC28;
+					};
+					8AAFCF451EA79097000ECC28 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AAFCF261EA79097000ECC28;
+					};
+				};
+			};
+			buildConfigurationList = 8AAFCF221EA79097000ECC28 /* Build configuration list for PBXProject "RedmineTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AAFCF1E1EA79097000ECC28;
+			productRefGroup = 8AAFCF281EA79097000ECC28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAFCF261EA79097000ECC28 /* RedmineTimer */,
+				8AAFCF3A1EA79097000ECC28 /* RedmineTimerTests */,
+				8AAFCF451EA79097000ECC28 /* RedmineTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AAFCF251EA79097000ECC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAFCF351EA79097000ECC28 /* LaunchScreen.storyboard in Resources */,
+				8AAFCF321EA79097000ECC28 /* Assets.xcassets in Resources */,
+				8AAFCF301EA79097000ECC28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF391EA79097000ECC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF441EA79097000ECC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AAFCF231EA79097000ECC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */,
+				8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF371EA79097000ECC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAFCF401EA79097000ECC28 /* RedmineTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAFCF421EA79097000ECC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAFCF4B1EA79097000ECC28 /* RedmineTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AAFCF3D1EA79097000ECC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAFCF261EA79097000ECC28 /* RedmineTimer */;
+			targetProxy = 8AAFCF3C1EA79097000ECC28 /* PBXContainerItemProxy */;
+		};
+		8AAFCF481EA79097000ECC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AAFCF261EA79097000ECC28 /* RedmineTimer */;
+			targetProxy = 8AAFCF471EA79097000ECC28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AAFCF2E1EA79097000ECC28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAFCF2F1EA79097000ECC28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AAFCF331EA79097000ECC28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AAFCF341EA79097000ECC28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AAFCF4D1EA79097000ECC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AAFCF4E1EA79097000ECC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AAFCF501EA79097000ECC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedmineTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8AAFCF511EA79097000ECC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedmineTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8AAFCF531EA79097000ECC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedmineTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedmineTimer.app/RedmineTimer";
+			};
+			name = Debug;
+		};
+		8AAFCF541EA79097000ECC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedmineTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedmineTimer.app/RedmineTimer";
+			};
+			name = Release;
+		};
+		8AAFCF561EA79097000ECC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RedmineTimer;
+			};
+			name = Debug;
+		};
+		8AAFCF571EA79097000ECC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RedmineTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AAFCF221EA79097000ECC28 /* Build configuration list for PBXProject "RedmineTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAFCF4D1EA79097000ECC28 /* Debug */,
+				8AAFCF4E1EA79097000ECC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AAFCF4F1EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAFCF501EA79097000ECC28 /* Debug */,
+				8AAFCF511EA79097000ECC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AAFCF521EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAFCF531EA79097000ECC28 /* Debug */,
+				8AAFCF541EA79097000ECC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AAFCF551EA79097000ECC28 /* Build configuration list for PBXNativeTarget "RedmineTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAFCF561EA79097000ECC28 /* Debug */,
+				8AAFCF571EA79097000ECC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AAFCF1F1EA79097000ECC28 /* Project object */;
+}
