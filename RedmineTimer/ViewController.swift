@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     //MARK: Properties
     @IBOutlet weak var userEdit: UITextField!
@@ -29,6 +29,21 @@ class ViewController: UIViewController {
     //MARK: Actions
     @IBAction func onLoginClick(_ sender: UIButton) {
         isLoading = true
+        NetworkManager
+            .GetMyIssues(username: userEdit.text!,
+                       password: password.text!,
+                       completion: { (issues) in
+                        if issues == nil {
+                            return
+                        }
+                        self.isLoading = false
+                        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                        let ticketsVC = storyBoard.instantiateViewController(withIdentifier: "TicketsViewController") as! TicketsTableViewController
+                        
+                        dump(issues)
+                        ticketsVC.issues = issues!
+                        self.navigationController?.pushViewController(ticketsVC, animated: true)
+        })
     }
     
     //MARK: Private Functions

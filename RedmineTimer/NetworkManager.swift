@@ -8,32 +8,35 @@
 
 import Foundation
 import Alamofire
+import ObjectMapper
 
 class NetworkManager {
     static let rootUrl: String = "https://redmine.brocelia.net"
     static var currentAuthHeader =  ["Authorization": "NULL"]
     
-    static func GetIssues(username: String, password: String, completion: @escaping ([String]) -> Void) {
+    static func GetMyIssues(username: String, password: String, completion: @escaping ([Issue]?) -> Void) {
         let credentialData = "\(username):\(password)".data(using: String.Encoding.utf8)!
         let base64Credentials = credentialData.base64EncodedData()
+        let dataString = String(data: base64Credentials, encoding: String.Encoding.utf8)
         
-        currentAuthHeader = ["Authorization": "Basic \(base64Credentials)"]
-        /*Alamofire.request(rootUrl + "/issues.json", headers: currentAuthHeader)
-            .responseJSON { (response: DataResponse<Issue>) in
+        currentAuthHeader = ["Authorization": "Basic \(dataString ?? "")"]
+        Alamofire.request(rootUrl + "/issues.json?assigned_to_id=me", headers: currentAuthHeader)
+            .responseJSON { response in
                 guard response.result.isSuccess else {
-                    print("Error while fetching tags: \(String(describing: response.result.error))")
-                    completion([String]())
-                    return
-                }
-                guard let jsonResponse = response.result.value as? [String: Any] else {
-                    print("Invalid tag information received from the service")
-                    completion([String]())
+                    completion(nil)
                     return
                 }
                 
-                print(jsonResponse)
-                completion([String]())
-        }*/
+                guard let value = response.result.value as? [String: Any] else {
+                        print("Malformed data received from service")
+                        completion(nil)
+                        return
+                }
+                //let issues = Mapper<Issue>().mapArray(JSONArray: [value])
+                let issues = Mapper<Issues>().map(JSON: value)
+                dump(issues)
+                completion(issues?.issuesArray)
+        }
     }
     
 }
