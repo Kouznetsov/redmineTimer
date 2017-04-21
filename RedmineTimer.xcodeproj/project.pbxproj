@@ -49,7 +49,7 @@
 		8A0BEF1C1EA7A76F0063C616 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		8A83E4851EA8E364005C58C0 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
 		8A83E4871EA8ECA2005C58C0 /* TicketCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketCellTableViewCell.swift; sourceTree = "<group>"; };
-		8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicketViewController.swift; path = ../TicketViewController.swift; sourceTree = "<group>"; };
 		8AAFCF271EA79097000ECC28 /* RedmineTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AAFCF2C1EA79097000ECC28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +115,6 @@
 		8AAFCF1E1EA79097000ECC28 = {
 			isa = PBXGroup;
 			children = (
-				8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */,
 				8AAFCF291EA79097000ECC28 /* RedmineTimer */,
 				8AAFCF3E1EA79097000ECC28 /* RedmineTimerTests */,
 				8AAFCF491EA79097000ECC28 /* RedmineTimerUITests */,
@@ -138,6 +137,7 @@
 		8AAFCF291EA79097000ECC28 /* RedmineTimer */ = {
 			isa = PBXGroup;
 			children = (
+				8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */,
 				8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */,
 				8AAFCF2C1EA79097000ECC28 /* ViewController.swift */,
 				8AAFCF2E1EA79097000ECC28 /* Main.storyboard */,
@@ -623,10 +623,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedmineTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -636,10 +638,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RedmineTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -650,6 +654,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedmineTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -665,6 +670,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedmineTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,6 +685,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -693,6 +700,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RedmineTimerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = karim.RedmineTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

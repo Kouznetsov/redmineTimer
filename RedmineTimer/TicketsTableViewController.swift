@@ -32,6 +32,26 @@ class TicketsTableViewController: UITableViewController {
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch (segue.identifier ?? "") {
+            case "ShowIssue":
+                guard let showIssueVC = segue.destination as? TicketViewController else {
+                    fatalError("Unexpected destination \(segue.destination)")
+                }
+                guard let selectedIssueCell = sender as? TicketCellTableViewCell else {
+                    fatalError("unexpected sender \(sender)")
+                }
+                guard let indexPath = tableView.indexPath(for: selectedIssueCell) else {
+                    fatalError("did not find \(selectedIssueCell)")
+                }
+                let selectedIssue = issues[indexPath.row]
+            
+                showIssueVC.issue = selectedIssue
+            default:
+                print("Unexcpected segue")
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return issues.count
     }
