@@ -12,6 +12,7 @@ class TicketsTableViewController: UITableViewController {
 
     //MARK: Properties
     var issues = [Issue]()
+    var activities = [String: Int]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +40,7 @@ class TicketsTableViewController: UITableViewController {
                     fatalError("Unexpected destination \(segue.destination)")
                 }
                 guard let selectedIssueCell = sender as? TicketCellTableViewCell else {
-                    fatalError("unexpected sender \(sender)")
+                    fatalError("unexpected sender \(String(describing: sender))")
                 }
                 guard let indexPath = tableView.indexPath(for: selectedIssueCell) else {
                     fatalError("did not find \(selectedIssueCell)")

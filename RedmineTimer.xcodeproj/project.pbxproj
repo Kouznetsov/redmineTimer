@@ -14,6 +14,7 @@
 		8A83E4861EA8E364005C58C0 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83E4851EA8E364005C58C0 /* TicketsTableViewController.swift */; };
 		8A83E4881EA8ECA2005C58C0 /* TicketCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83E4871EA8ECA2005C58C0 /* TicketCellTableViewCell.swift */; };
 		8A83E48A1EA90B6A005C58C0 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */; };
+		8A83E48C1EAA0D9C005C58C0 /* EnterTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A83E48B1EAA0D9C005C58C0 /* EnterTimeViewController.swift */; };
 		8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */; };
 		8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2C1EA79097000ECC28 /* ViewController.swift */; };
 		8AAFCF301EA79097000ECC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAFCF2E1EA79097000ECC28 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		8A83E4851EA8E364005C58C0 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
 		8A83E4871EA8ECA2005C58C0 /* TicketCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketCellTableViewCell.swift; sourceTree = "<group>"; };
 		8A83E4891EA90B6A005C58C0 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicketViewController.swift; path = ../TicketViewController.swift; sourceTree = "<group>"; };
+		8A83E48B1EAA0D9C005C58C0 /* EnterTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterTimeViewController.swift; sourceTree = "<group>"; };
 		8AAFCF271EA79097000ECC28 /* RedmineTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedmineTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AAFCF2C1EA79097000ECC28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				8AAFCF2A1EA79097000ECC28 /* AppDelegate.swift */,
 				8AAFCF2C1EA79097000ECC28 /* ViewController.swift */,
 				8AAFCF2E1EA79097000ECC28 /* Main.storyboard */,
+				8A83E48B1EAA0D9C005C58C0 /* EnterTimeViewController.swift */,
 				8A83E4871EA8ECA2005C58C0 /* TicketCellTableViewCell.swift */,
 				8A83E4851EA8E364005C58C0 /* TicketsTableViewController.swift */,
 				8AAFCF311EA79097000ECC28 /* Assets.xcassets */,
@@ -465,6 +468,7 @@
 				8AAFCF2D1EA79097000ECC28 /* ViewController.swift in Sources */,
 				8AAFCF2B1EA79097000ECC28 /* AppDelegate.swift in Sources */,
 				8A0BEF1D1EA7A76F0063C616 /* Issue.swift in Sources */,
+				8A83E48C1EAA0D9C005C58C0 /* EnterTimeViewController.swift in Sources */,
 				8A83E48A1EA90B6A005C58C0 /* TicketViewController.swift in Sources */,
 				8A83E4861EA8E364005C58C0 /* TicketsTableViewController.swift in Sources */,
 				8A83E4881EA8ECA2005C58C0 /* TicketCellTableViewCell.swift in Sources */,

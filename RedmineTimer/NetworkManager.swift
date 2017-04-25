@@ -39,4 +39,8 @@ class NetworkManager {
         }
     }
     
+    //static func PostTimeEntry(@escaping ()) {
+        
+    //}
+    
 }
