@@ -13,6 +13,7 @@ class EnterTimeViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     //MARK: Properties
     var activities = [String: Int]()
     var pickerData = [String]()
+    var selectedValue = String()
     @IBOutlet weak var timeEdit: UITextField!
     @IBOutlet weak var applyBtn: UIButton!
     @IBOutlet weak var activityPicker: UIPickerView!
@@ -30,6 +31,12 @@ class EnterTimeViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         return pickerData[row]
     }
     
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        // use the row to get the selected row from the picker view
+        // using the row extract the value from your datasource (array[row])
+        self.selectedValue = pickerData[activityPicker.selectedRow(inComponent: component)]
+    }
+    
     //MARK: UIPickerViewDataSource
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -41,6 +48,8 @@ class EnterTimeViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     //MARK: Actions
     @IBAction func onApplyClick(_ sender: UIButton) {
+        //let activityId = activities[pickerData[activityPicker.]]
+        
     }
     
     

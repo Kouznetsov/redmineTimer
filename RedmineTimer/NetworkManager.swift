@@ -28,19 +28,27 @@ class NetworkManager {
                 }
                 
                 guard let value = response.result.value as? [String: Any] else {
-                        print("Malformed data received from service")
-                        completion(nil)
-                        return
+                    print("Malformed data received from service")
+                    completion(nil)
+                    return
                 }
                 //let issues = Mapper<Issue>().mapArray(JSONArray: [value])
                 let issues = Mapper<Issues>().map(JSON: value)
-                dump(issues)
                 completion(issues?.issuesArray)
         }
     }
     
-    //static func PostTimeEntry(@escaping ()) {
-        
-    //}
+    static func PostTimeEntry(_ timeEntry: TimeEntryContainer, hours: Double, activityId: Int, completion: @escaping ([AnyObject]?) -> Void) {
+        let params = timeEntry.toJSONString(prettyPrint: false) as [String: Any]
+        let request = Alamofire.request(rootUrl + "/time_entries.json", method: .post, parameters: params, encoding: JSONEncoding.default, headers: currentAuthHeader)
+
+        request.responseJSON { response in
+                guard response.result.isSuccess else {
+                    completion(nil)
+                    return
+                }
+                completion(response)
+        }
+    }
     
 }
